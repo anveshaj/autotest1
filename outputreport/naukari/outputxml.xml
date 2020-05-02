@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="44.481988">
+    <testcase classname="The purpose of this feature is to validate the profile is getting updated when some fields are changed and saved." name="this scenario is to validate that after updating the profile, the last updated feild is changed to &quot;today&quot;." time="16.706038">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:87)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:53)&#13;&#10;&#9;at naukariStepDef.Login.validate_that_the_userprofile_last_updated_date_is_changed_to_today(Login.java:117)&#13;&#10;&#9;at ✽.Then validate that the userprofile last updated date is changed to today.(ProfileLogin.feature:34)&#13;&#10;">
+            <![CDATA[Given user opens the browser and navigates to specified URL.................passed
+When the user enters the username "chandu.siddhapuram@gmail.com" and password "Chandu@55".passed
+And Clicks on login button..................................................passed
+And Clicks on resumeheadline edit icon......................................passed
+And updates the resume headline.............................................passed
+Then validate that the userprofile last updated date is changed to today....failed
+And click on logout.........................................................skipped
+And Exit the browser........................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at naukariStepDef.Login.validate_that_the_userprofile_last_updated_date_is_changed_to_today(Login.java:117)
+	at ✽.Then validate that the userprofile last updated date is changed to today.(ProfileLogin.feature:34)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="The purpose of this feature is to validate the profile is getting updated when some fields are changed and saved." name="this scenario is to validate that after updating the profile, the last updated feild is changed to &quot;today&quot;. 2" time="18.200427">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:87)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:42)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:53)&#13;&#10;&#9;at naukariStepDef.Login.validate_that_the_userprofile_last_updated_date_is_changed_to_today(Login.java:117)&#13;&#10;&#9;at ✽.Then validate that the userprofile last updated date is changed to today.(ProfileLogin.feature:34)&#13;&#10;">
+            <![CDATA[Given user opens the browser and navigates to specified URL.................passed
+When the user enters the username "sudhaguttikonda28@gmail.com" and password "Sudha2811*".passed
+And Clicks on login button..................................................passed
+And Clicks on resumeheadline edit icon......................................passed
+And updates the resume headline.............................................passed
+Then validate that the userprofile last updated date is changed to today....failed
+And click on logout.........................................................skipped
+And Exit the browser........................................................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at naukariStepDef.Login.validate_that_the_userprofile_last_updated_date_is_changed_to_today(Login.java:117)
+	at ✽.Then validate that the userprofile last updated date is changed to today.(ProfileLogin.feature:34)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="The purpose of this feature is to validate the profile is getting updated when some fields are changed and saved." name="this scenario is to validate that after updating the profile, the last updated feild is changed to &quot;today&quot;. 3" time="9.575523">
+        <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;usernameField&quot;]&quot;}&#10;  (Session info: chrome=80.0.3987.163)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DIVYA', ip: '192.168.0.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '13.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\chandu\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60846}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 0a34613b80323658b0c9c1ce64d95eb5&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;usernameField&quot;]}&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at naukariPageFactory.NaukariProfilePage.login(NaukariProfilePage.java:24)&#13;&#10;&#9;at naukariStepDef.Login.the_user_enters_the_username_and_password(Login.java:43)&#13;&#10;&#9;at ✽.When the user enters the username &quot;rushi.solleti@gmail.com&quot; and password &quot;Gupta@1994012&quot;(ProfileLogin.feature:30)&#13;&#10;">
+            <![CDATA[Given user opens the browser and navigates to specified URL.................passed
+When the user enters the username "rushi.solleti@gmail.com" and password "Gupta@1994012".failed
+And Clicks on login button..................................................skipped
+And Clicks on resumeheadline edit icon......................................skipped
+And updates the resume headline.............................................skipped
+Then validate that the userprofile last updated date is changed to today....skipped
+And click on logout.........................................................skipped
+And Exit the browser........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="usernameField"]"}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DIVYA', ip: '192.168.0.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\chandu\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:60846}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0a34613b80323658b0c9c1ce64d95eb5
+*** Element info: {Using=xpath, value=//*[@id="usernameField"]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at naukariPageFactory.NaukariProfilePage.login(NaukariProfilePage.java:24)
+	at naukariStepDef.Login.the_user_enters_the_username_and_password(Login.java:43)
+	at ✽.When the user enters the username "rushi.solleti@gmail.com" and password "Gupta@1994012"(ProfileLogin.feature:30)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
